@@ -152,7 +152,6 @@ def submit_message():
         if ended:
             st.session_state.active = False
         st.session_state.user_input = ""
-        st.rerun()
 
 user_input = st.text_input(
     "💬 Type your message here...", 
